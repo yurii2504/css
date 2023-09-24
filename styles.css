@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+nav {
+	background-color: rgb(129, 121, 255);
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+}
+nav li {
+	display: inline-flex;
+	margin-right: 30px;
+
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5rem;
+
+}
+.main-block {
+	display: inline-flex;
+}
+main {
+	display: flex;
+	padding-top: 60px;
+	padding-left: 100px;
+	font-size: 2rem;
+	align-items: center;
+	color: rgb(129, 121, 255);
+
+}
+#more-info a {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: rgb(129, 121, 255);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	border-style: solid;
+}
+section h2 {
+	text-align: center;
+	background-color: rgb(129, 121, 255);
+	padding: 20px;
+	color: #ffffff;
+	margin: auto;
+	width: 100%;
+}
+.exp {
+background-color: rgb(129, 121, 255);
+background-size: cover;
+padding-top: 200px;
+padding-bottom: 200px;
+}
+table {
+	width: 90%;
+	margin: auto;
+}
+th {
+	border: solid;
+	color: rgb(255, 255, 255);
+	padding: 5px;
+	font-size: 25px;
+	background-color: rgb(129, 121, 255);
+}
+td {
+	border: solid;
+	text-align: center;
+	color: rgb(129, 121, 255);
+	padding: 5px;
+	font-size: 20px;
+	background-color: rgb(255, 255, 255);
+}
+section h3 {
+text-align: center;
+background-color: rgb(129, 121, 255);
+padding: 20px;
+color: #ffffff;
+margin: auto;
+width: 100%;
+}
+.contact {
+background-color: rgb(129, 121, 255);
+background-size: cover;
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.form {
+	padding: 30px;
+	background-color: rgb(129, 121, 255);
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	width: 40%;
+}
+form label {
+	display: block;
+	padding: 5px;
+	font-size: 20px;
+}
+form input {
+	height: 70px;
+	font-size: 1rem;
+	border-radius: 5px;
+	width: 100%;
+}
+form textarea {
+	height: 70px;
+	font-size: 1rem;
+	border-radius: 5px;
+	width: 100%;
+}
+form button {
+	padding: 10px;
+	width: 100%;
+	margin-top: 20px;
+	background-color: rgb(000, 121, 255);
+	color: white;
+	font-size: 2rem;
+}
+footer {
+	background-color: rgb(129, 121, 255);
+}
+.copyright p {
+	justify-content: center;
+}
+
+
